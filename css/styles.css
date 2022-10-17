@@ -1,0 +1,166 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color-main);
+    background-color: var(--background-color);
+}
+
+:root {
+    --main-background-color: #E5E5E5;
+    --top-bg-color: #FFFFFF;
+    --footer-bg-color: #2F303A;
+    --box-bg-color: #F5F4FA;
+    --text-color-main: #212121;
+    --text-color-alt: #757575;
+    --highlight-color: #2196F3;
+}
+
+.top-nav{background-color: var(--top-bg-color);}
+
+.link:hover,
+.link:focus {
+    color: var(--highlight-color);
+}
+
+.link{
+    text-decoration: none;
+    color: var(--text-color-main);
+}
+
+.list{
+    list-style-type: none;
+}
+
+.logo{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.17;
+}
+
+.logo-1{
+    color: var(--highlight-color);
+
+}
+
+.logo-2{
+    color: #000000;
+}
+
+.logo-3{
+    color: var(--top-bg-color);
+}
+
+.section-bg{background-color: var(--footer-bg-color);}
+
+.header{
+    color: var(--top-bg-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+}
+
+.employee-tag{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.17;
+}
+
+.employee-description{
+    color: var(--text-color-alt);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.17;
+}
+
+.contact-top{
+    color: var(--text-color-alt);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.17;
+}
+
+.contact-bottom{
+    color: var(--top-bg-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    opacity: 60%;
+}
+
+.addres{
+    color: var(--top-bg-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.navigation{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.section-title{
+    font-size: 36px;
+    line-height: 1.17;
+}
+
+.article-title{
+    font-size: 14px;
+    line-height: 1.17;
+}
+
+.article-content{
+    font-style: normal;
+    color: var(--text-color-alt);
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.caption-title{
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1.17;
+}
+
+.caption-content{
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.17;
+}
+
+.big-button{
+    color: var(--top-bg-color);
+    background-color: var(--highlight-color);
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    cursor: pointer;
+}
+
+.small-button{
+    background-color: var(--box-bg-color);
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    cursor: pointer;
+}
+
+.small-button:hover,
+.small-button:focus {
+    background-color: var(--highlight-color);
+    color: var(--top-bg-color)
+}
+
+.footer{background-color: var(--footer-bg-color);}
+
+.section-employee{background-color: var(--box-bg-color);}
