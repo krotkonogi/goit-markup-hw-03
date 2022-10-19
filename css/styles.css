@@ -14,6 +14,8 @@ body{
     --highlight-color: #2196F3;
 }
 
+/* page styling */
+
 .top-nav{background-color: var(--top-bg-color);}
 
 .link:hover,
@@ -57,6 +59,11 @@ body{
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
+    font-family: inherit;
+    width: 696px;
+    text-align: center;
+    margin: inherit;
+    padding-bottom: 30px;
 }
 
 .employee-tag{
@@ -164,3 +171,20 @@ body{
 .footer{background-color: var(--footer-bg-color);}
 
 .section-employee{background-color: var(--box-bg-color);}
+
+/* page geometry */
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.headerbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+}
